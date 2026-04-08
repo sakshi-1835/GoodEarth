@@ -1,15 +1,11 @@
-
-
-import './App.css'
+import styles from "./App.module.scss";
 
 function App() {
-  
-
   return (
     <>
-     Hello
+      <div className={styles.div}>hello</div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
