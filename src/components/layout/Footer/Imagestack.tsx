@@ -4,8 +4,8 @@ const ImageStack = () => {
   return (
     <>
       <div className={styles.container}>
-        <img src="/assets/images/leaves.svg" alt="Image 1" className={styles.image} />
-        <img src="/assets/images/accessibility-logo.png" alt="Image 2" className={styles.image} />
+        <img src="../public/assests/images/leaves.svg" alt="Image 1" className={styles.image} />
+        <img src="../public/assests/images/accessibility-logo.png" alt="Image 2" className={styles.image} />
       </div>
 
       <div className={styles.footerText}>
