@@ -1,0 +1,38 @@
+.subscribe-section {
+    color:$font-heading;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+    font-size:26px ;
+    color:$font-heading;
+    margin:0px 0px 10px ;
+  }
+
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding :10px 5px;
+
+    input {
+        padding: 0px 0px 0px 16px;
+        background: #ffffff;
+        height: 40px;
+        font-size: 13px;
+        font-weight: 400;
+        width: 450px;
+    }
+}
+.text {
+    text-align: center;
+    font-size: 10px;
+    color: $font-body;
+    max-width: 600px;   
+    margin: 0 auto;     
+}

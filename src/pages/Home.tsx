@@ -1,10 +1,11 @@
+import Footer from "../components/layout/Footer/Footer"
 
 
 const Home = () => {
   return (
-    <div>
-      hello
-    </div>
+    <>
+   <Footer/>
+   </>
   )
 }
 

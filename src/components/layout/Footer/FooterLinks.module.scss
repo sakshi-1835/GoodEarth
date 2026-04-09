@@ -1,0 +1,47 @@
+.footer-links {
+  display: flex;
+  justify-content: center;    
+  gap: 4rem;                  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 6rem;          
+  text-align: left;
+}
+
+.footer-links__col {
+  flex: 0 0 auto;             
+
+  &:first-child {
+    margin-left: 2rem;        
+  }
+
+  &:last-child {
+    margin-right: 2rem;       
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 1.5rem;
+    color: #2c2c2c;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.8rem;
+      line-height: 1.6;
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
